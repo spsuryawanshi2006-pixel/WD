@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Date and Time</title>
+</head>
+<body>
+
+<h1>Welcome to Web Development Lab</h1>
+
+<?php
+
+echo "<h2>Current Date: " . date("d-m-Y") . "</h2>";
+
+echo "<h2>Current Time: " . date("h:i:s A") . "</h2>";
+
+?>
+
+</body>
+</html>
