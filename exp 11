@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String Manipulation</title>
+</head>
+<body>
+
+<h1>PHP String Manipulation</h1>
+
+<form method="POST">
+
+    Enter String:
+    <input type="text" name="str"><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+<?php
+
+if($_SERVER["REQUEST_METHOD"] == "POST")
+{
+    $str = $_POST['str'];
+
+    echo "<h2>Results</h2>";
+
+    echo "Original String: " . $str . "<br><br>";
+
+    echo "String Length: " . strlen($str) . "<br><br>";
+
+    echo "Reverse String: " . strrev($str) . "<br><br>";
+
+    echo "Substring (First 5 Characters): " . substr($str,0,5);
+}
+
+?>
+
+</body>
+</html>
