@@ -1,0 +1,72 @@
+SAVE AS index.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Styling Example</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+h2 {
+   color: green;
+   text-decoration: underline;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1 class="highlight">Web Development Lab</h1>
+
+<h2>Student Details</h2>
+
+<table>
+
+<tr>
+<th>Name</th>
+<th>Roll No</th>
+<th>Branch</th>
+</tr>
+
+<tr>
+<td>Siddhi Suryawanshi</td>
+<td>101</td>
+<td>CE</td>
+</tr>
+
+<tr>
+<td>Shreya Adam</td>
+<td>102</td>
+<td>ENTC</td>
+</tr>
+
+</table>
+
+<p style="color:purple; font-size:16px;">
+This paragraph uses inline CSS.
+</p>
+
+</body>
+</html>
+
+save as style.css
+h1 {
+   color: blue;
+   text-align: center;
+}
+
+table {
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+
+th, td {
+   border: 1px solid black;
+   padding: 10px;
+}
+
+.highlight {
+   color: red;
+   font-weight: bold;
+}
