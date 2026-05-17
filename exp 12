@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Array Example</title>
+</head>
+<body>
+
+<h2>Indexed Array Example</h2>
+
+<?php
+
+// Creating an indexed array
+$fruits = array("Apple", "Banana", "Mango", "Orange");
+
+// Displaying array elements
+echo "<h3>Fruits List:</h3>";
+
+foreach($fruits as $fruit)
+{
+    echo $fruit . "<br>";
+}
+
+// Counting total elements
+echo "<br>Total Fruits: " . count($fruits);
+
+// Sorting the array
+sort($fruits);
+
+echo "<h3>Sorted Fruits List:</h3>";
+
+foreach($fruits as $fruit)
+{
+    echo $fruit . "<br>";
+}
+
+?>
+
+</body>
+</html>
