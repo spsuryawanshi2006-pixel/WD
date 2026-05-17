@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dynamic Content</title>
+<script>
+function addContent() {
+  document.getElementById("demo").innerHTML = "Hello, welcome to ADYPSOE 
+Lohegaon!";
+}
+</script>
+</head>
+<body>
+<h1>Dynamic Content Example</h1>
+<div id="demo"></div>
+<button onclick="addContent()">Click Me</button>
+</body>
+</html>
