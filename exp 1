@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body>
+<h1>My Personal Details</h1>
+<p>Name: <b>Siddhi Suryawanshi</b></p>
+<p>Roll No: <i>48</i></p>
+<p>Branch: <u>Computer Engineering</u></p>
+<p>College: <strong>ADYPSOE Lohegaon</strong></p>
+<p>Contact: <mark>+91 9876543210</mark></p>
+<p>Hobbies: <em>Reading, Dancing, Music</em></p>
+<p>Chemical Formula: H<sub>2</sub>O</p>
+<p>Square of 5: 5<sup>2</sup> = 25</p>
+</body>
+</html>
