@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Info</title>
+</head>
+<body>
+<h1>ADYPSOE Lohegaon</h1>
+<img src="C:\Users\admin\Downloads\nature.html" alt="Nature Image" width="300"><br><br>
+<a href="https://www.dypatil.edu" target="_blank">Visit College Website</a>
+<h2>Departments</h2>
+<table border="1">
+<tr>
+<th>Department</th>
+<th>Courses</th>
+</tr>
+<tr>
+<td>Computer Engineering</td>
+<td>
+  <table border="1">
+    <tr><td>HTML</td></tr>
+    <tr><td>CSS</td></tr>
+    <tr><td>JavaScript</td></tr>
+  </table>
+</td>
+</tr>
+<tr>
+<td>Information Technology</td>
+<td>
+  <table border="1">
+    <tr><td>Networking</td></tr>
+    <tr><td>DBMS</td></tr>
+  </table>
+</td>
+</tr>
+</table>
+</body>
+</html>
